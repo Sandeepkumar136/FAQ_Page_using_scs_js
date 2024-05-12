@@ -71,7 +71,7 @@ body {
   transition: 0.5s all linear;
 }
 
-.btn_config .button span .bx-up-arrow-alt {
+.btn_config .button span .bx--arrow-alt {
   display: none;
 }
 
