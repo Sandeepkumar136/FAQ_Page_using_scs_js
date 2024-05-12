@@ -60,6 +60,7 @@ body {
   background-color: transparent;
   font-size: 1.3rem;
   color: #1900ff;
+  cursor: pointer;
 }
 
 .answer {
@@ -71,10 +72,22 @@ body {
   transition: 0.5s all linear;
 }
 
-.btn_config .button span .bx--arrow-alt {
+.button span .bx-up-arrow-alt {
   display: none;
 }
 
-.button span .bx-down-arrow-alt {
+.answer p {
   display: none;
+}
+
+.config .button span .bx-down-arrow-alt {
+  display: none;
+}
+
+.config .button span .bx-up-arrow-alt {
+  display: inline;
+}
+
+.config .answer p {
+  display: inline;
 }/*# sourceMappingURL=style.css.map */
